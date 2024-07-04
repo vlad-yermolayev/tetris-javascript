@@ -35,7 +35,7 @@ main {
     border: 5px solid orange;
 }
 
-.tetris__cell {
+.tetris > div {
     height: min(4vh, 7vw);
     width: min(4vh, 7vw);
     background-color: rgba(211, 211, 211, 0.4);
@@ -45,4 +45,32 @@ main {
 
 .tetris .O {
     background-color: red;
+}
+
+.tetris .L {
+    background-color: green;
+}
+
+.tetris .J {
+    background-color: purple;
+}
+
+.tetris .T {
+    background-color: blue;
+}
+
+.tetris .I {
+    background-color: yellow;
+}
+
+.tetris .S {
+    background-color: aqua;
+}
+
+.tetris .Z {
+    background-color: brown;
+}
+
+.tetris .M {
+    background-color: black;
 }
